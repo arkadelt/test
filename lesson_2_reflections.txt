@@ -8,3 +8,11 @@ Q: How is the staging area different from the working directory and the reposito
 It allows you to decide which files in the working directory will go into the repository.
 
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Add files in logical groups to the staging area rather than all at once.
+
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When you plan to make different versions, for example to add an experimental feature or try a different implementation.
