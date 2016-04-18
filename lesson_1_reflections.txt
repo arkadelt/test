@@ -1,0 +1,33 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: diff shows the differences between a new, broken file, and an old, working file. Some of these differences will be intentional, but anything that broke the new file must been in that difference. It saves reading through lots of lines of text which are the same in both versions, and hence cannot be the source of the problem in the new file.
+
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Allows you to revert to previous, working versions; to compare new versions with old to see what has changed; to be sure which is the current version without losing previous versions.
+
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Pros: no saving in nonsensical places, can give commits meaningful messages. Cons: possibility that you might commit too late, you can worry if you are committing too much/not enough.
+
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Git was designed for programming projects which generally have multiple files in which reference each other heavily, a file doesn't make sense on its own, it needs the context of the other files. This is not the case generally in Google docs, where the docs are generally stand-alone.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: Git log shows you all the commits, their messages and timestamps. By calling git diff earlier later we can see the changes made between two commits.
+
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Being able to revert quickly means that mistakes can be more easily identified, as you can easily find the commit where the bug was introduced, and see what changed in that commit to cause the bug.
+
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: Writing LaTeX notes, keeping track of the files for my projects, to better learn CLI stuff.
