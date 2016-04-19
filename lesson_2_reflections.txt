@@ -26,3 +26,10 @@ A: Pretty obvious, right? You can see what other branches there are, where they 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A: It takes the changes made by both branches from their last common ancestor and combines them. We represent it this way because the separate branches rejoin when they are merged.
+
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros: Most merges are done automatically, it updates the branches as well. Cons: ?
+
+
